@@ -176,7 +176,14 @@ If your Steam version is Linux-based:
 
 ## 🧠 Optional: Vulkan Drivers (For Better Performance)
 
+Vulkan is a modern graphics API that many Windows and Linux games rely on for better performance and lower CPU usage. On Linux, Proton (for Steam), Lutris, DXVK, and many emulators use Vulkan.
+
 Vulkan provides faster, low-level GPU performance and is **strongly recommended** for modern gaming.
+
+You should install Vulkan if:
+• You are gaming on Linux  
+• You are using Steam Proton or Lutris to run Windows games  
+• You are using applications that explicitly require Vulkan (DXVK, VKD3D, RPCS3, etc.)  
 
 ### 🔹 Install Vulkan (NVIDIA):
 
@@ -185,6 +192,10 @@ sudo apt install nvidia-driver-535 nvidia-vulkan-icd
 ```
 
 ### 🔹 Install Vulkan (AMD):
+
+`mesa-vulkan-drivers` provides Vulkan support **for AMD and Intel GPUs** using the open source Mesa graphics stack.
+
+Install it if you are using:  (AMD Radeon GPU ,Intel integrated graphics , A hybrid laptop on Intel + NVIDIA that needs Vulkan on the iGPU)
 
 ```bash
 sudo apt install mesa-vulkan-drivers mesa-vulkan-drivers:i386
