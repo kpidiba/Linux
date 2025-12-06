@@ -58,6 +58,16 @@ sudo apt install lutris
 **Description:** A powerful note-taking app based on Markdown with features like bidirectional links and graph view.  
 **Website:** [https://obsidian.md](https://obsidian.md)
 
+📋 **Diodon**
+
+**Category:** Clipboard Manager / Productivity  
+**Description:** A lightweight clipboard manager for Linux that keeps a history of text and images you copy. Integrates well with GNOME and Unity, offering a simple, fast interface and support for plugins.  
+**Installation:**
+
+```bash
+sudo apt install diodon
+```
+
 ---
 
 ## 🌐 Internet & Communication
@@ -67,6 +77,13 @@ sudo apt install lutris
 **Category:** Email Client  
 **Description:** A secure, customizable, and powerful email client with calendar, contacts, and add-ons support.  
 **Website:** [Télécharger — Thunderbird](https://www.thunderbird.net/fr/download/)
+
+📝 **LocalSend**
+
+**Category:** File Sharing / P2P Transfer  
+**Description:** A free, open-source application for securely sending files and messages between nearby devices over a local network, without internet or cloud.  
+**Website:** [https://localsend.org](https://localsend.org?utm_source=chatgpt.com)  
+**Source:** [GitHub - localsend/localsend](https://github.com/localsend/localsend?utm_source=chatgpt.com)
 
 ---
 
