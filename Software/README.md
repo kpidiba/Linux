@@ -140,3 +140,29 @@ sudo apt install mpv
 ```
 
 ---
+
+## ▶️ **GIMP**
+
+**Category:** Image Editing Software  
+**Description:** GIMP (GNU Image Manipulation Program) is a powerful, open-source image editor used for photo retouching, image composition, and graphic design. It provides advanced tools similar to Photoshop and supports a wide range of plugins.  
+**Website:** [https://www.gimp.org](https://www.gimp.org)
+
+**Install:**
+
+```bash
+sudo apt install gimp
+```
+
+## ▶️ **Kdenlive**
+
+**Category:** Video Editor  
+**Description:** Kdenlive (KDE Non-Linear Video Editor) is a free and open-source professional video editing application. It offers a multi-track timeline, effects, transitions, and proxy editing for smooth workflow, making it ideal for beginners and advanced creators.  
+**Website:** [https://kdenlive.org](https://kdenlive.org)
+
+**Install:**
+
+```bash
+sudo apt install kdenlive
+```
+
+---
