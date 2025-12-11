@@ -1,4 +1,3 @@
----
 # 🔐 Password Management on Linux
 
 ### GNOME Keyring • KDE Wallet • Bitwarden / Vaultwarden • KeePassXC
@@ -14,9 +13,6 @@ This README explains how to manage passwords securely on Linux using common desk
 - Pros & cons of each
 
 - Security considerations
-
-
----
 
 # 📌 Table of Contents
 

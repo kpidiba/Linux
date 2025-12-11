@@ -1,4 +1,3 @@
----
 # **Linux Terminal – Simple README**
 
 ## **📌 What is the Terminal?**
@@ -16,9 +15,6 @@ It is used for:
 - Managing servers
 
 - Coding and development
-
-
----
 
 # **📟 Popular Terminal Applications in Linux**
 
@@ -134,6 +130,7 @@ echo $SHELL
 ```
 
 ---
+
 # **🎨 Customization**
 
 Most terminal applications allow you to customize:
@@ -149,7 +146,6 @@ Most terminal applications allow you to customize:
 - Themes
 
 - Shortcuts
-
 
 Example: GNOME Terminal Preferences → Profiles.
 

@@ -104,4 +104,4 @@ ZSH_THEME="agnoster"
 source ~/.zshrc
 ```
 
-
+----
