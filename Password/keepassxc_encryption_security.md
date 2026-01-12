@@ -4,15 +4,19 @@
 
 VeraCrypt is a free, open‑source disk encryption software used to protect sensitive data. It allows you to encrypt:
 
-* Entire disks or partitions
-* System drives (OS encryption)
-* Virtual encrypted containers (files acting as encrypted disks)
+- Entire disks or partitions
+
+- System drives (OS encryption)
+
+- Virtual encrypted containers (files acting as encrypted disks)
 
 VeraCrypt is commonly used for:
 
-* Personal data protection
-* Professional and institutional data security
-* Compliance with security and privacy policies
+- Personal data protection
+
+- Professional and institutional data security
+
+- Compliance with security and privacy policies
 
 ---
 
@@ -26,9 +30,11 @@ Encryption converts readable data into unreadable data using cryptographic algor
 
 A **VeraCrypt volume** is an encrypted storage area. It can be:
 
-* A file container (e.g. `secure.hc`)
-* A partition
-* An entire disk
+- A file container (e.g. `secure.hc`)
+
+- A partition
+
+- An entire disk
 
 ### 2.3 Mounting
 
@@ -40,18 +46,21 @@ Mounting means decrypting and attaching the encrypted volume to the operating sy
 
 ### Windows
 
-* Windows 10 / 11 (64‑bit recommended)
-* Administrator privileges
+- Windows 10 / 11 (64‑bit recommended)
+
+- Administrator privileges
 
 ### Linux
 
-* Modern Linux distribution (Ubuntu, Debian, Fedora, Pop!_OS, etc.)
-* Root or sudo access
+- Modern Linux distribution (Ubuntu, Debian, Fedora, Pop!_OS, etc.)
+
+- Root or sudo access
 
 ### macOS
 
-* macOS 10.13 or later
-* Administrator privileges
+- macOS 10.13 or later
+
+- Administrator privileges
 
 ---
 
@@ -60,16 +69,22 @@ Mounting means decrypting and attaching the encrypted volume to the operating sy
 ### 4.1 Installation on Windows
 
 1. Download the VeraCrypt installer from the official website.
+
 2. Run the installer (`VeraCrypt Setup.exe`).
+
 3. Choose **Install** (recommended).
+
 4. Accept the license agreement.
+
 5. Select installation directory.
+
 6. Click **Install**.
+
 7. Launch VeraCrypt after installation.
 
 Optional:
 
-* You can choose **Extract** instead of Install for portable usage.
+- You can choose **Extract** instead of Install for portable usage.
 
 ---
 
@@ -85,6 +100,7 @@ sudo apt install veracrypt
 #### Method 2: Using Official Installer
 
 1. Download the `.tar.bz2` installer.
+
 2. Extract the archive:
 
 ```bash
@@ -104,9 +120,13 @@ sudo ./veracrypt-*-setup-gui-x64
 ### 4.3 Installation on macOS
 
 1. Download the `.dmg` file.
+
 2. Open the DMG.
+
 3. Drag VeraCrypt to **Applications**.
+
 4. Launch VeraCrypt.
+
 5. Allow security permissions if prompted.
 
 ---
@@ -121,11 +141,11 @@ sudo ./veracrypt-*-setup-gui-x64
 
 3. Choose:
    
-   * **Create an encrypted file container** (recommended for beginners)
+   - **Create an encrypted file container** (recommended for beginners)
 
 4. Select:
    
-   * **Standard VeraCrypt volume**
+   - **Standard VeraCrypt volume**
 
 5. Choose file location and name.
 
@@ -133,8 +153,9 @@ sudo ./veracrypt-*-setup-gui-x64
 
 ### 5.2 Encryption Settings
 
-* **Encryption Algorithm**: AES (recommended)
-* **Hash Algorithm**: SHA‑512 (recommended)
+- **Encryption Algorithm**: AES (recommended)
+
+- **Hash Algorithm**: SHA‑512 (recommended)
 
 Advanced users may choose cascaded algorithms.
 
@@ -150,13 +171,15 @@ Specify the size of the encrypted container (e.g. 5 GB, 50 GB).
 
 #### Password Rules
 
-* Minimum 12 characters (20+ recommended)
-* Mix uppercase, lowercase, numbers, symbols
+- Minimum 12 characters (20+ recommended)
+
+- Mix uppercase, lowercase, numbers, symbols
 
 #### Keyfiles (Optional)
 
-* Additional files required to unlock the volume
-* Strongly increases security
+- Additional files required to unlock the volume
+
+- Strongly increases security
 
 ⚠️ Losing keyfiles = permanent data loss
 
@@ -164,15 +187,17 @@ Specify the size of the encrypted container (e.g. 5 GB, 50 GB).
 
 ### 5.5 Format Volume
 
-* Filesystem:
+- Filesystem:
   
-  * Windows: NTFS or exFAT
-  * Linux: ext4
-  * Cross‑platform: exFAT
+  - Windows: NTFS or exFAT
+  
+  - Linux: ext4
+  
+  - Cross‑platform: exFAT
 
-* Move your mouse randomly to increase cryptographic strength.
+- Move your mouse randomly to increase cryptographic strength.
 
-* Click **Format**.
+- Click **Format**.
 
 ---
 
@@ -181,9 +206,13 @@ Specify the size of the encrypted container (e.g. 5 GB, 50 GB).
 ### 6.1 Mounting
 
 1. Open VeraCrypt.
+
 2. Select an available drive letter / mount point.
+
 3. Click **Select File** or **Select Device**.
+
 4. Click **Mount**.
+
 5. Enter password (and keyfiles if used).
 
 The volume appears as a normal drive.
@@ -192,16 +221,20 @@ The volume appears as a normal drive.
 
 ### 6.2 Using the Volume
 
-* Copy, edit, and delete files normally.
-* Applications can access the volume like any other disk.
+- Copy, edit, and delete files normally.
+
+- Applications can access the volume like any other disk.
 
 ---
 
 ### 6.3 Dismounting
 
 1. Close all files in the volume.
+
 2. Open VeraCrypt.
+
 3. Select the mounted volume.
+
 4. Click **Dismount** or **Dismount All**.
 
 ---
@@ -213,8 +246,11 @@ The volume appears as a normal drive.
 Steps:
 
 1. Click **Create Volume**.
+
 2. Choose **Encrypt a non‑system partition/drive**.
+
 3. Select the device.
+
 4. Follow the same encryption steps as file container.
 
 ---
@@ -229,7 +265,7 @@ Steps:
 
 2. Choose:
    
-   * Single‑boot or multi‑boot
+   - Single‑boot or multi‑boot
 
 3. Choose encryption settings.
 
@@ -243,18 +279,19 @@ Steps:
 
 ## 9. Security Best Practices
 
-* Use a strong, unique password
+- Use a strong, unique password
 
-* Enable auto‑dismount on:
+- Enable auto‑dismount on:
   
-  * System sleep
-  * User logout
+  - System sleep
+  
+  - User logout
 
-* Backup encrypted containers securely
+- Backup encrypted containers securely
 
-* Never store passwords with the volume
+- Never store passwords with the volume
 
-* Keep VeraCrypt updated
+- Keep VeraCrypt updated
 
 ---
 
@@ -263,6 +300,7 @@ Steps:
 ### Backup Volume Header
 
 1. Go to **Tools → Backup Volume Header**.
+
 2. Store backup in a safe location.
 
 Required for recovery if header is corrupted.
@@ -273,18 +311,21 @@ Required for recovery if header is corrupted.
 
 ### Wrong Password
 
-* Check keyboard layout
-* Verify keyfiles
+- Check keyboard layout
+
+- Verify keyfiles
 
 ### Volume Won’t Mount
 
-* Check filesystem compatibility
-* Try mounting as read‑only
+- Check filesystem compatibility
+
+- Try mounting as read‑only
 
 ### Performance Issues
 
-* Use AES‑NI compatible CPU
-* Avoid slow USB 2.0 drives
+- Use AES‑NI compatible CPU
+
+- Avoid slow USB 2.0 drives
 
 ---
 
@@ -292,7 +333,7 @@ Required for recovery if header is corrupted.
 
 ### Windows
 
-* Control Panel → Programs → VeraCrypt → Uninstall
+- Control Panel → Programs → VeraCrypt → Uninstall
 
 ### Linux
 
@@ -302,15 +343,17 @@ sudo apt remove veracrypt
 
 ### macOS
 
-* Delete VeraCrypt from Applications
+- Delete VeraCrypt from Applications
 
 ---
 
 ## 13. Limitations
 
-* Forgotten password = data permanently lost
-* No built‑in password recovery
-* Requires user discipline
+- Forgotten password = data permanently lost
+
+- No built‑in password recovery
+
+- Requires user discipline
 
 ---
 
@@ -320,6 +363,6 @@ VeraCrypt is a powerful and reliable encryption tool suitable for individuals, d
 
 ---
 
-**Document Type:** Usage & Installation Manual
-**Audience:** General / Professional / IT Users
+**Document Type:** Usage & Installation Manual  
+**Audience:** General / Professional / IT Users  
 **Security Level:** High
