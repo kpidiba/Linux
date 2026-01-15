@@ -231,8 +231,6 @@ Notes:
 
 ⚠️ Never store the database unencrypted.
 
-
-
 ---
 
 ## 🧪 Versioning & Changes
