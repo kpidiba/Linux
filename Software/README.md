@@ -153,6 +153,8 @@ sudo apt install mpv
 sudo apt install gimp
 ```
 
+---
+
 ## ▶️ **Kdenlive**
 
 **Category:** Video Editor  
@@ -166,3 +168,20 @@ sudo apt install kdenlive
 ```
 
 ---
+
+## ▶️ **Remmina**
+
+**Category:** Remote Desktop Client
+
+**Logo:**  
+
+**Description:**  
+Remmina is a free and open-source remote desktop application for Linux. It supports multiple protocols such as **RDP, VNC, SSH, SFTP, and SPICE**, allowing you to connect to Windows servers, Linux machines, and other remote systems from a single interface. It is lightweight, stable, and widely used by system administrators and developers for remote access and server management.
+
+**Website:** [https://remmina.org](https://remmina.org)
+
+**Install:**
+
+```bash
+sudo apt install remmina
+```
