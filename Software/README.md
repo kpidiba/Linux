@@ -183,5 +183,40 @@ Remmina is a free and open-source remote desktop application for Linux. It suppo
 **Install:**
 
 ```bash
-sudo apt install remmina
+sudo apt install remmina    
 ```
+
+---
+
+📖 **tldr**
+
+**Category:** Command Line Documentation Tool
+
+**Logo:**
+
+**Description:**  
+tldr (Too Long; Didn’t Read) is a community-maintained command-line tool that provides simplified and practical examples for common terminal commands.
+
+Instead of reading long and complex man pages, **tldr** gives you short, clear, and real-world usage examples. It is extremely useful for developers, system administrators, and Linux users who want quick reminders of command syntax.
+
+It supports hundreds of commands across different platforms (Linux, macOS, Windows).
+
+**Website:** [https://tldr.sh](https://tldr.sh)
+
+**Install** :
+
+```bash
+sudo snap install tldr
+```
+
+**Usage Example:**
+
+```bash
+tldr tar
+tldr git
+tldr docker
+```
+
+This will show simplified examples of how to use the command.
+
+---
