@@ -192,8 +192,6 @@ sudo apt install remmina    
 
 **Category:** Command Line Documentation Tool
 
-**Logo:**
-
 **Description:**  
 tldr (Too Long; Didn’t Read) is a community-maintained command-line tool that provides simplified and practical examples for common terminal commands.
 
@@ -220,3 +218,43 @@ tldr docker
 This will show simplified examples of how to use the command.
 
 ---
+
+💬 **ZapZap**
+
+**Category:** Messaging Client  
+**Description:** ZapZap is a fast, lightweight, and open-source desktop client for WhatsApp. It provides a clean interface, multi-account support, and system integration features like notifications and tray icons, making it a convenient alternative to using WhatsApp Web in a browser.  
+**Website:** https://github.com/rafatosta/zapzap
+
+**Install:**
+
+```bash
+sudo apt install zapzap
+```
+
+---
+
+🔐 **KeePassXC**
+
+**Category:** Password Manager  
+**Description:** KeePassXC is a free and open-source password manager that helps you securely store and manage your passwords. It uses strong encryption, supports password generation, and works completely offline, making it a reliable choice for protecting sensitive information.  
+**Website:** [https://keepassxc.org](https://keepassxc.org)
+
+**Install:**
+
+```bash
+sudo apt install keepassxc
+```
+
+---
+
+⬇️ **Stacher**
+
+**Category:** Media Downloader  
+**Description:** Stacher is a modern graphical interface for yt-dlp, designed to make downloading videos and audio from platforms like YouTube simple and user-friendly. It offers easy format selection, batch downloads, and a clean interface suitable for beginners.  
+**Website:** [https://stacher.io](https://stacher.io)
+
+**Install:**
+
+```bash
+
+```
