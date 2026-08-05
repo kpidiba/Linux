@@ -58,7 +58,7 @@ sudo apt install lutris
 **Description:** A powerful note-taking app based on Markdown with features like bidirectional links and graph view.  
 **Website:** [https://obsidian.md](https://obsidian.md)
 
-📋 **Diodon**
+### 📋 **Diodon**
 
 **Category:** Clipboard Manager / Productivity  
 **Description:** A lightweight clipboard manager for Linux that keeps a history of text and images you copy. Integrates well with GNOME and Unity, offering a simple, fast interface and support for plugins.  
@@ -78,7 +78,7 @@ sudo apt install diodon
 **Description:** A secure, customizable, and powerful email client with calendar, contacts, and add-ons support.  
 **Website:** [Télécharger — Thunderbird](https://www.thunderbird.net/fr/download/)
 
-📝 **LocalSend**
+### 📝 **LocalSend**
 
 **Category:** File Sharing / P2P Transfer  
 **Description:** A free, open-source application for securely sending files and messages between nearby devices over a local network, without internet or cloud.  
@@ -188,7 +188,7 @@ sudo apt install remmina    
 
 ---
 
-📖 **tldr**
+### 📖 **tldr**
 
 **Category:** Command Line Documentation Tool
 
@@ -219,7 +219,7 @@ This will show simplified examples of how to use the command.
 
 ---
 
-💬 **ZapZap**
+### 💬 **ZapZap**
 
 **Category:** Messaging Client  
 **Description:** ZapZap is a fast, lightweight, and open-source desktop client for WhatsApp. It provides a clean interface, multi-account support, and system integration features like notifications and tray icons, making it a convenient alternative to using WhatsApp Web in a browser.  
@@ -233,7 +233,7 @@ sudo apt install zapzap
 
 ---
 
-🔐 **KeePassXC**
+### 🔐 **KeePassXC**
 
 **Category:** Password Manager  
 **Description:** KeePassXC is a free and open-source password manager that helps you securely store and manage your passwords. It uses strong encryption, supports password generation, and works completely offline, making it a reliable choice for protecting sensitive information.  
@@ -247,14 +247,105 @@ sudo apt install keepassxc
 
 ---
 
-⬇️ **Stacher**
+### ⬇️ **Stacher**
 
 **Category:** Media Downloader  
 **Description:** Stacher is a modern graphical interface for yt-dlp, designed to make downloading videos and audio from platforms like YouTube simple and user-friendly. It offers easy format selection, batch downloads, and a clean interface suitable for beginners.  
-**Website:** [https://stacher.io](https://stacher.io)
+**Website:** [https://stacher.io](https://stacher.io) 
+
+---
+
+### 📄 **Okular**
+
+**Category:** PDF Document Viewer  
+**Description:** Okular is a powerful, free, and open-source universal document viewer developed by the KDE community. It supports PDF, EPUB, DjVu, TIFF, CHM, and many other document formats. It includes features such as annotations, highlighting, bookmarks, digital signatures, and text selection, making it an excellent tool for reading and reviewing documents.
+
+**Website:** [https://okular.kde.org](https://okular.kde.org)
 
 **Install:**
 
 ```bash
-
+sudo apt install okular
 ```
+
+---
+
+### ✂️ **PDF Arranger**
+
+**Category:** PDF Editor  
+**Description:** PDF Arranger is a lightweight, open-source application for merging, splitting, rotating, cropping, rearranging, and deleting pages from PDF documents. It provides a simple drag-and-drop interface, making it easy to organize PDF files without modifying their original content.
+
+**Website:** https://github.com/pdfarranger/pdfarranger
+
+**Install:**
+
+```bash
+sudo apt install pdfarranger
+```
+
+---
+
+✂️ **Waydroid**
+
+**Category:** Android Container / Android Runtime
+
+**Description:** Waydroid is an open-source Android container that allows you to run a complete Android operating system directly on Linux using the host kernel. Unlike traditional Android emulators, Waydroid provides near-native performance, hardware acceleration, clipboard sharing, networking, audio support, and seamless integration with the Linux desktop. It is an excellent solution for running Android applications such as **JW Library**, messaging apps, productivity tools, and mobile applications on Linux.
+
+**Website:** [https://waydro.id/](https://waydro.id/)
+
+**Install:**
+
+```bash
+# Add the official Waydroid repository
+curl https://repo.waydro.id | sudo bash
+
+# Update package list
+sudo apt update
+
+# Install Waydroid
+sudo apt install waydroid
+
+# Initialize the Android image
+sudo waydroid init
+
+# Enable and start the Waydroid container
+sudo systemctl enable --now waydroid-container
+
+# Start a Waydroid session
+waydroid session start
+
+# Launch the full Android interface
+waydroid show-full-ui
+```
+
+**Features:**
+
+- 🚀 Near-native Android performance
+
+- 📱 Run Android applications on Linux
+
+- 🎮 Hardware acceleration (GPU)
+
+- 📋 Clipboard sharing between Linux and Android
+
+- 🔊 Audio support
+
+- 🌐 Network integration
+
+- 📂 File sharing with the host system
+
+- 🖥️ Seamless desktop integration
+
+- 🆓 Free and open source
+
+**Best For:**
+
+- Running Android applications on Linux
+
+- Using apps that do not have a native Linux version (e.g., **JW Library**)
+
+- Android application development and testing
+
+- Productivity and communication apps
+
+- Mobile gaming with hardware acceleration
