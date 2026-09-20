@@ -95,6 +95,11 @@ sudo apt install diodon
 **Description:** A lightweight and fast Linux download manager with pause/resume, scheduling, and multi-threaded downloads.  
 **Website:** [https://abdownloadmanager.com/](https://abdownloadmanager.com/)
 
+📥 **qBittorrent**  
+**Category:** BitTorrent Client  
+**Description:** A free, open-source, lightweight BitTorrent client for Linux with torrent downloads, magnet links, bandwidth control, queue management, scheduling, RSS support, and a web interface for remote management.  
+**Website:** [https://www.qbittorrent.org/](https://www.qbittorrent.org/?utm_source=chatgpt.com)
+
 ---
 
 ## 💻 Development Tools
