@@ -275,6 +275,50 @@ sudo apt install okular
 
 ---
 
+**SPEED-CLI**
+
+**Category:** Network / Internet Speed Testing
+
+**Description:** Command-line tool for measuring your internet connection’s **download speed, upload speed, latency (ping), and server information** directly from the terminal.
+
+**Website:** [speedtest-cli on GitHub](https://github.com/sivel/speedtest-cli?utm_source=chatgpt.com)
+
+**Install:**
+
+```
+sudo apt install speedtest-cli
+```
+
+**Usage:**
+
+```
+speedtest
+```
+
+**Useful commands:**
+
+```
+speedtest --simple
+```
+
+```
+speedtest --list
+```
+
+```
+speedtest --server <SERVER_ID>
+```
+
+**Example output:**
+
+```
+Ping: 12.345 msDownload: 95.23 Mbit/sUpload: 18.45 Mbit/s
+```
+
+Explore practical speed tests
+
+---
+
 ### ✂️ **PDF Arranger**
 
 **Category:** PDF Editor  
